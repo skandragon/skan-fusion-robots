@@ -1,9 +1,9 @@
 {
-"name":"skan-fusion-robots",
-"author":"Skandragon",
-"version":"1.0.0",
-"factorio_version":"0.15",
-"title":"Skandragon's Fusion Robots",
-"homepage":"",
-"description":"Expensive robots that don't need to recharge."
+  "name": "skan-fusion-robots",
+  "version": "1.0.0",
+  "title": "Skandragon's Fusion Robots",
+  "author": "Skandragon",
+  "homepage": "https://github.com/skandragon/skan-fusion-robots",
+  "description": "Expensive robots that don't need to recharge.",
+  "factorio_version": "0.15"
 }
