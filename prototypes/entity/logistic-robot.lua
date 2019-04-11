@@ -130,7 +130,7 @@ data:extend(
         name = "skan-logistic-robot-fusion",
         icon = "__skan-fusion-robots__/graphics/icons/logistic-robot-fusion.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
+        flags = {},
         subgroup = "logistic-network",
         order = "a[robot]-b[logistic-robot]-c[fusion]",
         place_result = "skan-logistic-robot-fusion",

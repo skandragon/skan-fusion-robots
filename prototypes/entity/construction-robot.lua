@@ -185,7 +185,7 @@ data:extend(
         name = "skan-construction-robot-fusion",
         icon = "__skan-fusion-robots__/graphics/icons/construction-robot-fusion.png",
         icon_size = 32,
-        flags = {"goes-to-main-inventory"},
+        flags = {},
         subgroup = "logistic-network",
         order = "a[robot]-c[construction-robot]-c[fusion]",
         place_result = "skan-construction-robot-fusion",
