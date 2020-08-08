@@ -1,3 +1,20 @@
+local logistic_robot_sounds = function(volume)
+  return
+  {
+    sound =
+    {
+      { filename = "__base__/sound/flying-robot-1.ogg", volume = volume },
+      { filename = "__base__/sound/flying-robot-2.ogg", volume = volume },
+      { filename = "__base__/sound/flying-robot-3.ogg", volume = volume },
+      { filename = "__base__/sound/flying-robot-4.ogg", volume = volume },
+      { filename = "__base__/sound/flying-robot-5.ogg", volume = volume }
+    },
+    max_sounds_per_type = 1,
+    audible_distance_modifier = 1,
+    probability = 1 / (10 * 60) -- average pause between the sound is 10 seconds
+  }
+end
+
 data:extend(
 {
     -- entity
@@ -107,7 +124,7 @@ data:extend(
             shift = {0.96875, 0.609375},
             direction_count = 16
         },
-        working_sound = flying_robot_sounds(),
+        working_sound = logistic_robot_sounds(0.47),
         cargo_centered = {0.0, 0.2},
     },
     -- recipe
